@@ -37,6 +37,11 @@ environment. You can follow the official
 However, make sure to stop before the `west init` invocation, since that will instead be done with
 the instructions below.
 
+Short gist for easy copy-paste of getting started commands:
+
+- Linux getting started: https://gist.github.com/tejlmand/92696ce4acf584b9a9e9d8b06c43c0da
+- Windows getting started: https://gist.github.com/tejlmand/29724c61a029c1d98702af40ec68fbc3
+
 ### Initialization
 
 The first step is to initialize the workspace folder (``my-workspace``) where
@@ -45,7 +50,7 @@ that by running:
 
 ```shell
 # initialize my-workspace for the zephyr app (main branch)
-west init -m https://github.com/zephyrproject-rtos/oss-eu-2022-zephyr-app --mr main my-workspace
+west init -m https://github.com/tejlmand/eot_zephyr_workshop_2023 --mr main my-workspace
 # update Zephyr modules
 cd my-workspace
 west update
